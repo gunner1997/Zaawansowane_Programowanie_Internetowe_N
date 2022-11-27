@@ -24,20 +24,20 @@ dotnet tool update --global dotnet-ef --version 6.0.9
 
 ### create migration with name Initial
 ```console
-dotnet ef migrations add Initial --project SchoolRegister.DAL/SchoolRegister.DAL.csproj --startup-project SchoolRegister.Web/SchoolRegister.Web.csproj
+dotnet ef migrations add Initial --project WebStore.DAL/WebStore.DAL.csproj --startup-project WebStore.Web/WebStore.Web.csproj
 ```
 
 ### remove the newest migration
 ```console
-dotnet ef migrations remove --project SchoolRegister.DAL/SchoolRegister.DAL.csproj --startup-project SchoolRegister.Web/SchoolRegister.Web.csproj
+dotnet ef migrations remove --project WebStore.DAL/WebStore.DAL.csproj --startup-project WebStore.Web/WebStore.Web.csproj
 ```
 
 ### update database to newest migration
 ```console
-dotnet ef database update --project SchoolRegister.DAL/SchoolRegister.DAL.csproj --startup-project SchoolRegister.Web/SchoolRegister.Web.csproj
+dotnet ef database update --project WebStore.DAL/WebStore.DAL.csproj --startup-project WebStore.Web/WebStore.Web.csproj
 ```
 
 ### drop database
 ```console
-dotnet ef database drop --project SchoolRegister.DAL/SchoolRegister.DAL.csproj --startup-project SchoolRegister.Web/SchoolRegister.Web.csproj
+dotnet ef database drop --project WebStore.DAL/WebStore.DAL.csproj --startup-project WebStore.Web/WebStore.Web.csproj
 ```
