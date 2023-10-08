@@ -1,0 +1,16 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace WebStore.Model
+{
+    public class Address
+    {
+        public string City { get; set; }
+        public string Street { get; set; }
+        public string StreetNumber { get; set; }
+        public string FlatNumber { get; set; }
+        public string PostalCode { get; set; }
+    }
+}

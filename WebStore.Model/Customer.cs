@@ -1,0 +1,14 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace WebStore.Model
+{
+    public class Customer : User
+    {
+        public Address BillingAddress { get; set; }
+        public IList<Order> Orders { get; set; }
+        public string ShippingAddress { get; set; }
+    }
+}
