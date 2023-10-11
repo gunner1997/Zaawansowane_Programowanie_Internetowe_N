@@ -15,6 +15,6 @@ namespace WebStore.Model
         public decimal Price { get; set; }
         public Supplier Supplier { get; set; }
         public float Weight { get; set; }
-        public IList<OrderProductModel> Orders {get; set;}
+        public IList<OrderProduct> Orders {get; set;}
     }
 }

@@ -14,6 +14,6 @@ namespace WebStore.Model
         public DateTime OrderDate { get; set; }
         public decimal TotalAmount { get; set; }
         public long TrackingNumber { get; set; }
-        public IList<OrderProductModel> Products { get; set;}
+        public IList<OrderProduct> Products { get; set;}
     }
 }
