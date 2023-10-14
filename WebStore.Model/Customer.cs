@@ -9,6 +9,6 @@ namespace WebStore.Model
     {
         public Address BillingAddress { get; set; }
         public IList<Order> Orders { get; set; }
-        public string ShippingAddress { get; set; }
+        public Address ShippingAddress { get; set; }
     }
 }

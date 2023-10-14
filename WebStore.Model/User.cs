@@ -6,6 +6,4 @@ namespace WebStore.Model
         public string LastName {get; set;}
         public DateTime RegistrationDate { get; set; }
     }
-
-   
 }
